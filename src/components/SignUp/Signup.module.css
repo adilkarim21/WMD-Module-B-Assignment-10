@@ -1,0 +1,67 @@
+.MainDiv{
+    background-color: rgba(219,237,251,255);
+    color: black;
+    height: 380px;
+    border-radius: 40px;
+    padding: 60px;
+    padding-bottom: 70px;
+    margin: 50px 150px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.ContentDiv{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.LinkSetting{
+    color: rgba(32,67,183,255);
+}
+
+.BoldSetting{
+    font-weight: bold;
+}
+
+.InputDiv{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.InputFields{
+    width: 250px;
+    height: 35px;
+    border: 1px solid lightgrey;
+    border-radius: 20px;
+    font-style: italic;
+}
+
+.CheckBoxDiv{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.ButtonDiv{
+    align-self: center;
+}
+
+.ButtonSetting{
+    background-color: rgba(32,67,183,255);
+    border: 1px solid rgba(32,67,183,255);
+    border-radius: 20px;
+    color: white;
+    font-weight: bold;
+    width: 100px;
+    height: 35px;
+}
+
+.Img{
+    max-width: 400px;
+}
